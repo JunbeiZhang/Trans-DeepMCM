@@ -94,8 +94,9 @@ Below are the C-index and IBS performance visualizations across different datase
 # 3️⃣ **Part III : Supplements & Notes** 📢  
 - 💡 As my main focus is on **dynamic survival analysis**, there is a **specific workflow** for this purpose. If you need the **dynamic joint training code**, feel free to **contact me**! 📩  
 - 💡 The **DeepMCM** model can also be directly used for **static survival analysis**. Just follow **Step 2** above and **set up a config** for your data.  
-
+- 💡 Note: This model was created and submitted by me in November 2024 as part of a research project.
+- 
 ---
 
-🔥 **Happy modeling!** 💡🎯  
+# 🔥 **Happy modeling!** 💡🎯  
 
