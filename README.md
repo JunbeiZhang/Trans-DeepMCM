@@ -5,7 +5,7 @@ Follow these steps to use **Trans-DeepMCM** effectively! 😀
 ---
 # 1️⃣ **Part I : Usage Instructions** 🔧 
 ## 🛠 **Step 1: Prepare Longitudinal Data 📊**  
-Ensure your data is **longitudinal**. Use `Trans-Dynamic_Network` to extract longitudinal features into a static vector, **$ \mathbf{c} $**.  
+Ensure your data is **longitudinal**. Use `Trans-Dynamic_Network` to extract longitudinal features into a static vector, **c**.  
 
 👉 **Update the data input logic** in `import_data.py` according to your data format.  
 👉 **Modify `data_mode`** in `main.py` if necessary.  
@@ -14,7 +14,7 @@ Ensure your data is **longitudinal**. Use `Trans-Dynamic_Network` to extract lon
 ---
 
 ## 🔬 **Step 2: Survival Analysis with DeepMCM ⏳**  
-Use the extracted **static vector** $ \mathbf{c} $ for **survival analysis** in `DeepMCM`.  
+Use the extracted **static vector** c for **survival analysis** in `DeepMCM`.  
 
 📌 **For new data**: Create a `config.ini` (a sample is included in the code package).  
 📌 **Optimize hyperparameters** using `hyperpara_search.py`, or start with the **default parameters** for initial testing.  
