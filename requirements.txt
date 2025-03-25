@@ -1,0 +1,8 @@
+numpy==2.1.3
+pandas==2.2.3
+scikit_learn==1.5.2
+torch==2.2.2+cu121
+tqdm==4.66.1
+lifelines==0.30.0
+optuna==3.6.1
+prettytable==3.12.0
