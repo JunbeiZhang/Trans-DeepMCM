@@ -3,8 +3,8 @@
 Follow these steps to use **Trans-DeepMCM** effectively!  
 
 ---
-# 1️⃣ ** Usage Instructions**  
-## 🛠 **Step 1: Prepare Longitudinal Data **  
+# 1️⃣ **Usage Instructions**  
+## 🛠 **Step 1: Prepare Longitudinal Data**  
 Ensure your data is **longitudinal**. Use `Trans-Dynamic_Network` to extract longitudinal features into a static vector, **c**.  
 
 - **Update the data input logic** in `import_data.py` according to your data format.  
@@ -13,7 +13,7 @@ Ensure your data is **longitudinal**. Use `Trans-Dynamic_Network` to extract lon
 
 ---
 
-## 🔬 **Step 2: Survival Analysis with DeepMCM **  
+## 🔬 **Step 2: Survival Analysis with DeepMCM**  
 Use the extracted **static vector** c for **survival analysis** in `DeepMCM`.  
 
 📌 **For new data**: Create a `config.ini` (a sample is included in the code package).  
@@ -40,11 +40,11 @@ pip install -r requirements.txt
 
 ---
 
-#  2️⃣ ** Model Performance**   
+#  2️⃣ **Model Performance**   
 The following tables and figures present the **C-index** and **IBS** results of various models across simulated and real-world datasets.
 
 
-### ** Table 1: C-index of models across simulated datasets**
+### **Table 1: C-index of models across simulated datasets**
 | Model  | Data I            | Data II           | Data III           | Data IV            | Data V             |
 |--------|------------------|------------------|------------------|------------------|------------------|
 | **TDMCM(Ours)**  | 0.9360 (0.0253)  | 0.8886 (0.0083)  | **0.8570 (0.0092)**  | **0.8720 (0.0142)**  | **0.8756 (0.0110)**  |
@@ -55,7 +55,7 @@ The following tables and figures present the **C-index** and **IBS** results of 
 
 ---
 
-### ** Table 2: IBS of models across simulated datasets**
+### **Table 2: IBS of models across simulated datasets**
 | Model  | Data I            | Data II           | Data III           | Data IV            | Data V             |
 |--------|------------------|------------------|------------------|------------------|------------------|
 | **TDMCM(Ours)**  | 0.3420 (0.0042)  | **0.2093 (0.0245)**  | **0.2184 (0.0131)**  | **0.1678 (0.0091)**  | **0.1781 (0.0165)**  |
@@ -66,7 +66,7 @@ The following tables and figures present the **C-index** and **IBS** results of 
 
 ---
 
-### ** Table 3: C-index and IBS values of models on PBC2 and AIDS datasets**
+### **Table 3: C-index and IBS values of models on PBC2 and AIDS datasets**
 | Model                 | C-index (PBC2)        | C-index (AIDS)        | IBS (PBC2)        | IBS (AIDS)        |
 |-----------------------|---------------------|---------------------|------------------|------------------|
 | **Trans-DeepMCM**      | **0.9053 (0.0186)**  | **0.8506 (0.0190)**  | 0.3090 (0.0319)  | **0.2455 (0.0276)**  |
@@ -91,7 +91,7 @@ Below are the C-index and IBS performance visualizations across different datase
 
 ---
 
-# 3️⃣ ** Supplements & Notes**   
+# 3️⃣ **Supplements & Notes**   
 -  As my main focus is on **dynamic survival analysis**, there is a **specific workflow** for this purpose. If you need the **dynamic joint training code**, feel free to **contact me**! 📩  
 -  The **DeepMCM** model can also be directly used for **static survival analysis**. Just follow **Step 2** above and **set up a config** for your data.  
 -  Note: This model was created and submitted by me in November 2024 as part of a research project.
