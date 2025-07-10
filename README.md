@@ -98,5 +98,23 @@ Below are the C-index and IBS performance visualizations across different datase
 
 ---
 
-# 🔥 **Happy modeling!**   
+# 📚 **How to Cite**
+
+If you use **Trans-DeepMCM** in your research, please cite our paper:
+
+```bibtex
+@article{Zhang04072025,
+  author    = {Junbei Zhang and Jinxia Su},
+  title     = {Trans-DeepMCM: A transformer-based deep dynamic mixture cure model},
+  journal   = {Communications in Statistics - Theory and Methods},
+  volume    = {0},
+  number    = {0},
+  pages     = {1--27},
+  year      = {2025},
+  publisher = {Taylor \& Francis},
+  doi       = {10.1080/03610926.2025.2522110},
+}
+```
+
+We appreciate your support and feedback! 🙌
 
